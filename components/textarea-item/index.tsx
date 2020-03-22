@@ -1,6 +1,6 @@
 /* tslint:disable:jsx-no-multiline-js */
 import classnames from 'classnames';
-import React from 'react';
+import * as React from 'react';
 import TouchFeedback from 'rmc-feedback';
 import { TextAreaItemPropsType } from './PropsType';
 import { Omit } from '../_util/types';
@@ -94,7 +94,7 @@ export default class TextareaItem extends React.Component<
     }
   }
   componentDidUpdate() {
-    if (this.props.autoHeight && this.state.focus) {
+    if (this.props.autoHeight) {
       this.reAlignHeight();
     }
   }

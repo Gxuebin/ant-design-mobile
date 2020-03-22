@@ -14,6 +14,71 @@ toc: false
 - Major version release is not included in this schedule for breadking change and new features.
 
 ---
+### 2.3.0
+
+`2019-08-15`
+
+- **Feature**
+  - 🌟 `Toast` add two method `Toast.config` 、`Toast.hide` [#3304](https://github.com/ant-design/ant-design-mobile/pull/3304)
+  - 🌟 `Input-Item`   add new `disabledKeys` prop for `type='money'`  [#3330](https://github.com/ant-design/ant-design-mobile/pull/3330)
+- **Enhancement**
+  - 📝 `notice-bar`  fix `typescript` error.
+- **Bug Fix**
+  - 🐞`DatePicker` fix infinite loop when select some date.[#125](https://github.com/react-component/m-picker/pull/125) 、[#191](
+https://github.com/react-component/m-date-picker/pull/191)
+  - 🐞`ImagePicker` fix preview picture not show when the url contains space. [#3311](https://github.com/ant-design/ant-design-mobile/pull/3311)
+  - 🐞fix component demo not render in iOS 9. [#3292](https://github.com/ant-design/ant-design-mobile/pull/3292)
+  -  🐞`Modal.prompt` fix prompt can not be focus in Wechat [#3346](https://github.com/ant-design/ant-design-mobile/pull/3346)
+  - `Tabs` support  `null` for tabs's children [#3270](https://github.com/ant-design/ant-design-mobile/pull/3270)
+
+### 2.2.14
+
+`2019-06-13`
+
+- **Feature**
+
+  - 🌟 `InputItem` Add `autoAdjustHeight` config [#3246](https://github.com/ant-design/ant-design-mobile/pull/3246)
+
+- **Enhancement**
+
+  - 📝 `Tab` Update `initalPage` to `initialPage` [#3235](https://github.com/ant-design/ant-design-mobile/pull/3235)
+  - 📝 `ListView` Update `dataSource` link [#3253](https://github.com/ant-design/ant-design-mobile/pull/3253)
+
+- **Bug Fix**
+
+  - 🐞 `Calendar` Fixed element with flexbox can't scroll on Chrome [#3152](https://github.com/ant-design/ant-design-mobile/pull/3252)
+  - 🐞 `Picker` Fixed trigger `onPickerChange` problem [#3174](https://github.com/ant-design/ant-design-mobile/issues/3174)
+  - 🐞 `InputItem` add try catch to getSelection [#3237](https://github.com/ant-design/ant-design-mobile/pull/3237)
+  - 🐞 `Modal` Fixed show problem of using svg with Modal on iOS9 [#3229](https://github.com/ant-design/ant-design-mobile/pull/3229)
+
+
+### 2.2.12
+
+`2019-04-28`
+
+- **Feature**
+
+  - 🌟 `ImagePicker` Add `disableDelete` config [#3185](https://github.com/ant-design/ant-design-mobile/pull/3185)
+
+- **Enhancement**
+
+  - 📝 Update modularized Doc [#3132](https://github.com/ant-design/ant-design-mobile/pull/3132)
+  - 🔧 `deploy` Add CNAME [#3172](https://github.com/ant-design/ant-design-mobile/pull/3172)
+  - 🌟 `InputItem` Optimize cursor position [#3189](https://github.com/ant-design/ant-design-mobile/pull/3189)
+  - 🌟 `@types/react` `@types/react-dom` Update [#3186](https://github.com/ant-design/ant-design-mobile/pull/3186)
+  - 🌟 `React import` Optimize [#3179](https://github.com/ant-design/ant-design-mobile/pull/3179)
+  - 🌟 `TypeScript` Update [#3181](https://github.com/ant-design/ant-design-mobile/pull/3181)
+  - 🌟 Add IPhoneX `safe-area` support [#3180](https://github.com/ant-design/ant-design-mobile/pull/3180)
+
+- **Bug Fix**
+
+  - 🐞 `Typo` Fixed `datePicker` and `site` error [#3152](https://github.com/ant-design/ant-design-mobile/pull/3252) [#3187](https://github.com/ant-design/ant-design-mobile/pull/3187)
+  - 🐞 `Modal` Add `onPresss` parameter declaration [#3136](https://github.com/ant-design/ant-design-mobile/pull/3136)
+  - 🐞 `gitter` Fixed link error in Doc [US](https://github.com/ant-design/ant-design-mobile/commit/b32b3e3ef382d8496e67e1ce1928b22d3b301dfb) [CN](https://github.com/ant-design/ant-design-mobile/commit/6f0a04536e8d028e2111697820e8700142156f40)
+  - 🐞 `Tabs` Fixed `height` style error [#3188](https://github.com/ant-design/ant-design-mobile/pull/3188)
+  - 🐞 `List` Fixed `typescript` declaration error [#3183](https://github.com/ant-design/ant-design-mobile/pull/3183)
+
+---
 
 ### 2.2.10
 
