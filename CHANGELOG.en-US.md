@@ -13,7 +13,28 @@ toc: false
 - Monthly release: minor version at the end of every month for new features.
 - Major version release is not included in this schedule for breadking change and new features.
 
+### 2.3.4
+
+`2020-09-18`
+
+- **Feature**
+  - 📝 `style` Now you can change body background by changing less variable @am-body-background [#3713](https://github.com/ant-design/ant-design-mobile/pull/3713)
+
 ---
+### 2.3.3
+
+`2020-05-19`
+
+- **Bug Fix**
+  - 📝 `InputItem` revert event to click from touchend, which changed by 2.3.2 [#3613](https://github.com/ant-design/ant-design-mobile/pull/3613)
+
+### 2.3.2
+
+`2020-05-13`
+
+- **Enhancement**
+  - 📝 `Switch` change style [#3606](https://github.com/ant-design/ant-design-mobile/pull/3606)
+
 ### 2.3.0
 
 `2019-08-15`

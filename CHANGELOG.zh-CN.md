@@ -15,6 +15,27 @@ toc: false
 
 ---
 
+### 2.3.4
+
+`2020-09-18`
+
+- **Feature**
+  - 📝 `style` 现在可以单独对 body 上的背景做 less (@am-body-background) 替换 [#3713](https://github.com/ant-design/ant-design-mobile/pull/3713)
+
+### 2.3.3
+
+`2020-05-19`
+
+- **Bug Fix**
+  - 📝 `InputItem` 触发方式回滚到 click，该特性首次在 2.3.2 被引入 [#3613](https://github.com/ant-design/ant-design-mobile/pull/3613)
+
+### 2.3.2
+
+`2020-05-13`
+
+- **Enhancement**
+  - 📝 `Switch` 调整样式 [#3606](https://github.com/ant-design/ant-design-mobile/pull/3606)
+
 ### 2.3.0
 
 `2019-08-15`
